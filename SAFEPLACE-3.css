@@ -14,6 +14,7 @@ body{
 
 .Center{
   margin: auto;
+  width:200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +87,7 @@ input{
 }
 
 fieldset{
-  width: 300px;
+  width: 200px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -112,4 +113,5 @@ button{
   transition:0.15s;
 }
   
+
 }
