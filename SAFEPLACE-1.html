@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="SAFEPLACE-3.CSS">
+  <title>IFEMI</title>
+</head>
+<body>
+  <section class="Center">
+    <h2>Welcome</h2>
+    <fieldset>
+      <legend>ENTER YOUR NAME</legend>
+  <input type="text" id="username" placeholder="Enter username" required><br><br>
+  <button onclick="login()">Login</button>
+
+    </fieldset>
+    
+  </section>
+  
+  <script>
+    function login() {
+      let user = document.getElementById("username").value;
+
+      // If the username is correct, redirect to another page
+      if (user === "ifeoluwa") {
+        window.location.href = "SAFEPLACE-2.html";
+      } else {
+        alert("Wrong username. Try again.");
+      }
+    }
+    alert("enter your name to see what i create for you")
+  </script>
+
+</body>
+</html>

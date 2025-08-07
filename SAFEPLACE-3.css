@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.Center{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+h2{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 2px black;
+}
+input{
+  height: 40px;
+  border-radius: 20px;
+  border: black solid 1px;
+  padding-inline: 15px 20px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  outline: none;
+  background-color: transparent;
+}
+
+fieldset{
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border: 2px black solid;
+}
+legend{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+  padding: 0.5rem 2.3rem;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  transition:0.15s;
+}
+button:hover{
+  transform: scale(1.1);
+  border: 2px dotted black;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width:768px) {
+    h2{
+  font-size: 40px;
+}
+input{
+  height: 40px;
+  border-radius: 20px;
+  border: black solid 1px;
+  padding-inline: 15px 20px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  outline: none;
+  background-color: transparent;
+}
+
+fieldset{
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border: 2px black solid;
+}
+legend{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+  padding: 0.5rem 2.3rem;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  transition:0.15s;
+}
+  
+}
